@@ -58,3 +58,8 @@ remote GitHub repository. Follow the steps below exactly to receive full credit.
 
    The instructor will then clone your copy of your repository, and update it each week with a
    `git pull`, to review your Production Problems.
+
+### My own stuff
+
+Production problems repository URL:
+https://github.com/flexadecimal/fwd-production-problems
