@@ -63,3 +63,5 @@ remote GitHub repository. Follow the steps below exactly to receive full credit.
 
 Production problems repository URL:
 https://github.com/flexadecimal/fwd-production-problems
+
+Hello, world!
