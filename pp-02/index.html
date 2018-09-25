@@ -2,24 +2,24 @@
 <html id="home" lang="en">
 <head>
   <!--Hint: avoid decorative punctuation marks in <title> tags -->
-  <title>HTML Antipatterns | Never Do These Things</title>
+  <title>HTML Antipatterns (Never Do These Things!)</title>
   <!--Hint: Don't add extra space around `=` signs in attribute-value pairs-->
-  <meta charset = "utf-8" />
-  <meta name = "viewport" content = "width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link rel = "stylesheet" href = "screen.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" href="screen.css" />
 <body>
-<h1><a href="http://example.com/index.html" rel="home">HTML Antipatterns</a></h1>
-  <header id="header">
-    <nav id="navigation">
+  <a href="/" rel="home">HTML Antipatterns</a>
+  <header>
+    <nav>
       <!--Hint: Match navigation labels with memorable paths/URLs-->
-      <li><a href="home.html">Home</a></li>
-      <li><a href="../my-res/">Resume</a></li>
-      <li><a href="randomstuff/">Interests</a></li>
+      <li><a href="home/">Home</a></li>
+      <li><a href="resume/">Resume</a></li>
+      <li><a href="interests/">Interests</a></li>
     </nav>
   </header>
   <!--Hint: Watch for duplicate and non-semantic classes and IDs-->
-  <main id="home">
-    <article id="primary" class="green-background">
+  <main>
+    <article id="about-me">
       <h2><b>About Me</b></h2>
       <h3><i>3rd-Year ITM Undergraduate</i></h3>
       <h4>Majoring in Cybersecurity</h4><br />
@@ -29,28 +29,25 @@
       </p>
     </article>
     <!--Hint: Watch formatting, spacing, and tag completeness-->
-    <article id="my dog"
-      <div class="header">Look at this awesome dog!</div>
-        <figure>
-          <img href="file:///Users/scarlethawk/Desktop/Photo%20Saves/DSC2235.JPEG" alt="Photo of Hank" />
-            <figcaption>
-              Hank hanging out on the couch & being chill.
-              </figcaption>
-                </figrue>
-              </article>
-</main>
+    <article id="my-dog">
+      Look at this awesome dog!
+      <figure>
+        <img href="images/DSC2235.JPEG" alt="Photo of Hank" />
+        <figcaption>Hank hanging out on the couch & being chill.</figcaption>
+        </figure>
+    </article>
+  </main>
   <aside id="supporting">
-    <p><h2>Facts About Me</h2></p>
+    <h2>Facts About Me</h2>
     <!--Hint: Don't repeat classes on all inner elements that share a common parent-->
-    <ul>
-      <li class="quick-facts"><p><b> Quick Facts: </b></p>
-        <!-- Hint: Close up spaces between content and HTML tags on the same line-->
-        <li class="quick-facts"> Interested in cybersecurity </li>
-          <li class="quick-facts"> Hate cold winters </li>
-<li class="quick-facts" > Always running late </li></li>
-      </ul>
+    <h3>Quick facts:</h3>
+    <ul class="quick-facts">
+      <li>Interested in cybersecurity</li>
+      <li>Hate cold winters</li>
+      <li>Always running late</li>
+    </ul>
   </aside>
-  <footer id="footer">
+  <footer>
     Site content and design &copy; by me.
   </footer>
 </body>
