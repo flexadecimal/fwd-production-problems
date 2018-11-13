@@ -23,5 +23,7 @@ body {
 
 /* ===== MODULAR STYLES ===== */
 
-
 /* ===== STATE STYLES ===== */
+.doorbell-button-js {
+  cursor: pointer;
+}
